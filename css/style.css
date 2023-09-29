@@ -1115,6 +1115,7 @@ line-height: 2.4rem; /* 150% */
   display: flex;
   flex-direction: column;
   gap:2rem;
+  margin-top: 2rem;
 }
 
 .projet-en-cours-title{
@@ -1170,6 +1171,51 @@ border-radius: 0 0 0.8rem 0.8rem;
   background: transparent;
   border: 0.1rem solid var(--main-dark-or);
 }
+
+
+.cta-venir {
+  padding: 1.2rem 2rem;
+  margin-left: 1.2rem;
+  border-radius: 0.8rem;
+  width: 30%;
+  color: var(--main-black);
+
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  background: var(--main-or);
+  border: 0.1rem solid var(--main-dark-or);
+}
+
+.cta-rembourse {
+  padding: 1.2rem 2rem;
+  margin-left: 1.2rem;
+  border-radius: 0.8rem;
+  width: 30%;
+  color: var(--main-black);
+
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  background: #8AF3ED; 
+  border: 0.1rem solid var(--main-dark-or);
+}
+
+.cta-finance {
+  padding: 1.2rem 2rem;
+  margin-left: 1.2rem;
+  border-radius: 0.8rem;
+  width: 30%;
+  color: var(--main-black);
+
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  background: var(--main-dark-grey, #B8B8B8); 
+  border: 0.1rem solid var(--main-dark-or);
+}
+
+
 
 .projet-en-cours-box-title{
   color: var(--main-white);
