@@ -166,6 +166,7 @@ h6 {
   color: var(--main-white);
   background-color: var(--main-dark-or);
   border: none;
+  cursor: pointer;
 }
 
 .signin {
@@ -176,6 +177,7 @@ h6 {
   background-color: var(--main-white);
   color: var(--main-or);
   border: none;
+  cursor: pointer;
 }
 
 /* ************************** */
@@ -518,7 +520,7 @@ align-items: center;
 gap: 0.8rem; 
 background: var(--main-white, #FFF); 
 margin: 2rem 0 1rem 0;
-
+flex-wrap: wrap;
 }
 
 .know-more-top{
@@ -627,7 +629,8 @@ flex:1;
 }
 .engagements-right img{
 
-  flex: 1;
+  width: 97%;
+  height: 100%;
 }
 
 .engagements-box-top{
@@ -702,7 +705,7 @@ line-height: 3.2rem; /* 200% */
   }
 
   .contact-left-image{
-    flex: 1;
+  width: 97%;
     
   }
   
@@ -896,4 +899,135 @@ line-height: 2.4rem; /* 150% */
   height: 1.4rem;
   flex-shrink: 0; 
 }
+
+
+
+  /* FORM SIGNUP */
+
+  .form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  
+  .logo_signup{
+    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+  }
+  
+  form.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 5rem; */
+      margin-top: 2rem;
+    gap: 2rem;
+    background-color: #FFF;
+    color
+  }
+  
+  form.signup h2{
+    color: var(--main-or);
+  }
+  
+  .google_signup{
+    display: flex;
+    color: #fff;
+    gap: 0.5rem;
+    border: 1px solid #B8B8B8;
+    padding: 0.2rem;
+    width: 25rem;
+    justify-content: center;
+  }
+  .google_signup img{
+    width: 24px;
+    height: 24px;
+  }
+  .google_signup p{
+    padding-top: 0.5rem;
+    color: #B8B8B8;
+  }
+  
+  .google_signup a{
+    color: #B8B8B8;
+    text-decoration: none;
+  }
+  
+  .google_signup_conditions p{
+    display: flex;
+    color: #B8B8B8;
+    padding: 0.1rem;
+    width: 22rem;
+    justify-content: center;
+    font-size: 0.6rem;
+  }
+  
+  
+  
+  .signup input {
+    height: 3.5rem;
+    width: 25rem;
+    background-color: transparent;
+  
+    border: 1px solid var(--main-dark-grey);
+    /* border-radius: 8px; */
+    padding: 12px 25px;
+  
+    color: var(--main-dark-grey)
+    
+  }
+  
+  .signup input::placeholder {
+  
+    color: var(--main-dark-grey);
+  
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  
+  
+  input.inscrire {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #FFF ;
+    background: transparent;
+    background-color:var(--main-or);
+    border: none;
+    cursor: pointer;
+   padding-top: 0.6rem;
+   padding-bottom: 1rem;
+    border:1px solid var(--main-or);
+    /* border-radius: 8px; */
+  }
+  
+  input.connexion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #FFF ;
+    background-color: var(--main-or);
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    padding: 1rem 2rem 2rem 2rem;
+   
+  }
+
+  .cadre{
+    border: 0.1rem solid var(--main-dark-or);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    width:50%;
+    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+   margin: 10rem auto;
+  flex:1;
+    
+  }
+  
 
